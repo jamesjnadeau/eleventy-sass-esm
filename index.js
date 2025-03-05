@@ -1,9 +1,7 @@
-require("./lib/eleventy/patch");
-const eleventySass = require("./lib/eleventy-sass");
-
+import "./lib/eleventy/patch.js";
+import eleventySass from "./lib/eleventy-sass.js";
 const plugin = {
-  configFunction: eleventySass,
-  name: "eleventy-sass"
+    configFunction: eleventySass,
+    name: "eleventy-sass"
 };
-
-module.exports = plugin;
+export default plugin;
