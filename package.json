@@ -3,6 +3,7 @@
     "version": "3.0.0-beta.0",
     "description": "Yet another Sass/SCSS plugin for Eleventy. Source maps, PostCSS and revision hashes are supported.",
     "main": "index.js",
+    "type": "module",
     "scripts": {
         "test": "npx ava --timeout=3m --concurrency=1"
     },
